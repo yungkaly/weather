@@ -104,25 +104,25 @@ body {
     backdrop-filter: blur(19px);
     border-radius: 12px;
     background-color: rgb(255, 255, 255, 0.1);
-    width: 520px;
-    height: 300px;
+    width: 480px;
+    height: 260px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
     transition: 0.7s;
     justify-content: center;
   }
   .bg_blur:hover {
     background-color: rgb(255, 255, 255, 0.2);
-    width: 528px;
-    height: 308px;
+    width: 486px;
+    height: 266px;
   }
   
   .city {
-    margin-top: 22px;
+    margin-top: 42px;
     font-size: 18px;
   }
   
   .city_dark {
-    margin-top: 22px;
+    margin-top: 42px;
     font-size: 18px;
     color: #353535;
   }
