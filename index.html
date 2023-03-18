@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link class="favicon" rel="icon" href="https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Weather</title>
+
+</head>
+
+<body style="background-color: black; font-family: Quicksand;">
+
+    <div style="display: flex; justify-content: flex-end;">
+        <button class="dark_btn" onclick="myFunction()">Dark & Light Mode</button>
+    </div>
+    <div class="app">
+        <div class="search_btn">
+            <input type="text" id="searchBar" class="searchbar" placeholder="Şehir Giriniz">
+            <button id="button" class="srcbtn" onclick="changeClass()">Ara</button>
+        </div>
+        <div class="content">
+            <div class="bg_blur">
+                <div class="city"></div>
+                <div class="temp"></div>
+                <div class="desc">Lütfen bir şehir ismi giriniz..</div>
+                <div class="minmax"></div>
+                <img src="/assets/img/bg/night_day.png" style="width: 100px;" class="night_day" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+<script src="script.js"></script>
+
+</html>
